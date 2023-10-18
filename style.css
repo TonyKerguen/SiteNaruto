@@ -1,0 +1,26 @@
+nav {
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center; 
+}
+
+nav ul{
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px
+}
+
+nav li:hover{
+    background-color: red;
+}
+
+body{
+    background-color: aqua;
+}
+
+img{
+    height: auto;
+}
