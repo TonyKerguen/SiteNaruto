@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 header,footer{
@@ -14,10 +15,14 @@ main{
 }
 
 aside{
-    flex-basis: 20%;
+    flex-basis: 1%;
     flex-grow: 1;
 }
 
 main>section{
     display: flex;
+}
+
+img {
+    height: min-content;
 }

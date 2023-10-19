@@ -1,7 +1,26 @@
+@font-face {
+	font-family: njnaruto;
+	src: url(./font/njnaruto.ttf)
+}
+
+article h2, header h1 {
+	font-family: njnaruto;
+}
+
+header h1{
+    text-align: center;
+    font-size: 3em;
+}
+
 nav {
-    background-color: yellow;
+    background-color: #273750;
     list-style-type: none;
     text-align: center; 
+    font-family: njnaruto;
+}
+
+nav a{
+    color: #b45c34;
 }
 
 nav ul{
@@ -18,9 +37,5 @@ nav li:hover{
 }
 
 body{
-    background-color: aqua;
-}
-
-img{
-    height: auto;
+    background-color: #b45c34;
 }
