@@ -1,6 +1,6 @@
 @font-face {
 	font-family: njnaruto;
-	src: url(./font/njnaruto.ttf)
+	src: url('./font/njnaruto.ttf')
 }
 
 article h2, header h1 {
@@ -8,12 +8,12 @@ article h2, header h1 {
 }
 
 header {
-    background: #75c1cc url('./img/sky.webp') no-repeat center/cover;
+    background: #75c1cc url('./img/sky.webp') no-repeat center/cover !important;
 }
 
 header h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 6em;
 }
 
 nav {
@@ -21,6 +21,7 @@ nav {
     list-style-type: none;
     text-align: center; 
     font-family: njnaruto;
+    
 }
 
 nav a{
@@ -42,13 +43,51 @@ nav li:hover{
 }
 
 body{
-    background-color: #FA9427;
+    background-color: orange;
 }
 
-main {
-    background-color: #FA9427;
+aside {
     background-position-y: center;
     background-repeat: no-repeat;
     background-image: url("./img/bg_story_en.jpg");
     background-size: 100%;
 }
+
+section, aside, footer {
+    background-color: #FA9427;
+    border-color: black;
+    border: solid;
+    margin: 2em;
+    padding: 2em;
+}
+
+.cylon_eye {
+    top: auto;
+    background-image: url("./img/cloud.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 850px;
+    top: 0;
+    position: absolute;
+    margin-right: 0;
+  
+    -webkit-animation: 10s linear 0s infinite alternate move_cloud;
+    animation: 10s linear 0s infinite alternate move_cloud;
+  }
+  
+  @-webkit-keyframes move_cloud {
+    from {
+      margin-left: -20%;
+    }
+    to {
+      margin-left: 100%;
+    }
+  }
+  @keyframes move_cloud {
+    from {
+      margin-left: -20%;
+    }
+    to {
+      margin-left: 100%;
+    }
+  }

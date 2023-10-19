@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 
-header,footer{
+header, footer{
     flex-basis: 99%;
     flex-grow: 1;   
 }
@@ -25,4 +25,18 @@ main>section{
 
 img {
     height: min-content;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    z-index: 3;
+    position: relative;
+}
+
+.cylon_eye {
+    z-index: 1;
 }
