@@ -1,4 +1,4 @@
 git clone https://github.com/TonyKerguen/SiteNaruto.git
 git add .
-git commit
+git commit -m "message"
 git push
