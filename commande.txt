@@ -1,0 +1,4 @@
+git clone https://github.com/TonyKerguen/SiteNaruto.git
+git add .
+git commit
+git push
