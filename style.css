@@ -1,17 +1,18 @@
 @font-face {
-	font-family: njnaruto;
-	src: url('./font/njnaruto.ttf')
+    font-family: njnaruto;
+    src: url('./font/njnaruto.ttf')
 }
 
-article h2, header h1 {
-	font-family: njnaruto;
+article h2,
+header h1 {
+    font-family: njnaruto;
 }
 
 header {
-    background: #75c1cc url('./img/sky.webp') no-repeat center/cover !important;
+    background: #75c1cc url('./img/sky.webp') no-repeat center/cover;
 }
 
-header h1{
+header h1 {
     text-align: center;
     font-size: 6em;
 }
@@ -19,30 +20,30 @@ header h1{
 nav {
     background-color: #273750;
     list-style-type: none;
-    text-align: center; 
+    text-align: center;
     font-family: njnaruto;
-    
 }
 
-nav a{
+nav a {
     color: #FA9427;
 }
 
-nav ul{
+nav ul {
     padding: 0;
     margin: 0;
 }
+
 nav li {
     display: inline-block;
     font-size: 20px;
     padding: 20px
 }
 
-nav li:hover{
+nav li:hover {
     background-color: red;
 }
 
-body{
+body {
     background-color: orange;
 }
 
@@ -53,41 +54,38 @@ aside {
     background-size: 100%;
 }
 
-section, aside, footer {
+section,
+aside,
+footer {
     background-color: #FA9427;
-    border-color: black;
     border: solid;
     margin: 2em;
     padding: 2em;
 }
 
-.cylon_eye {
-    top: auto;
+.nuage_en_mouvement {
+
     background-image: url("./img/cloud.png");
-    background-repeat: no-repeat;
+
     height: 300px;
     width: 850px;
     top: 0;
     position: absolute;
     margin-right: 0;
-  
-    -webkit-animation: 10s linear 0s infinite alternate move_cloud;
+    overflow: hidden;
+
     animation: 10s linear 0s infinite alternate move_cloud;
-  }
-  
-  @-webkit-keyframes move_cloud {
+    animation-range-end: normal;
+}
+
+
+
+@keyframes move_cloud {
     from {
-      margin-left: -20%;
+        margin-left: 0%;
     }
+
     to {
-      margin-left: 100%;
+        margin-left: 70%;
     }
-  }
-  @keyframes move_cloud {
-    from {
-      margin-left: -20%;
-    }
-    to {
-      margin-left: 100%;
-    }
-  }
+}
