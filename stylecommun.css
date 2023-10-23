@@ -59,7 +59,7 @@ nav li:hover {
     position: absolute;
     margin-right: 0;
     overflow: hidden;
-    animation: 20s linear 0s infinite alternate move_cloud;
+    animation: 20s linear 0s infinite normal move_cloud;
 }
 
 @keyframes move_cloud {
