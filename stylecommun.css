@@ -3,9 +3,8 @@
     src: url('./font/njnaruto.ttf')
 }
 
-article h2,
-header h1 {
-    font-family: njnaruto;
+body {
+    background-color: orange;
 }
 
 header {
@@ -15,6 +14,9 @@ header {
 header h1 {
     text-align: center;
     font-size: 6em;
+    font-family: njnaruto;
+    z-index: 3;
+    position: relative;
 }
 
 nav {
@@ -22,6 +24,8 @@ nav {
     list-style-type: none;
     text-align: center;
     font-family: njnaruto;
+    position: relative;
+    z-index: 2;
 }
 
 nav a {
@@ -43,49 +47,46 @@ nav li:hover {
     background-color: red;
 }
 
-body {
-    background-color: orange;
-}
-
-aside {
-    background-position-y: center;
-    background-repeat: no-repeat;
-    background-image: url("./img/bg_story_en.jpg");
-    background-size: 100%;
-}
-
-section,
-aside,
-footer {
-    background-color: #FA9427;
-    border: solid;
-    margin: 2em;
-    padding: 2em;
+.cylon_eye {
+    z-index: 1;
 }
 
 .nuage_en_mouvement {
-
     background-image: url("./img/cloud.png");
-
     height: 300px;
     width: 850px;
     top: 0;
     position: absolute;
     margin-right: 0;
     overflow: hidden;
-
-    animation: 10s linear 0s infinite alternate move_cloud;
-    animation-range-end: normal;
+    animation: 20s linear 0s infinite alternate move_cloud;
 }
-
-
 
 @keyframes move_cloud {
     from {
-        margin-left: 0%;
+        margin-left: -50%;
     }
 
     to {
-        margin-left: 70%;
+        margin-left: 100%;
     }
+}
+
+footer {
+    background-color: #FA9427;
+    border: solid;
+    margin: 1em;
+    padding: 1em;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header, footer{
+    flex-basis: 99%;
+    flex-grow: 1;   
 }

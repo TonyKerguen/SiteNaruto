@@ -1,0 +1,24 @@
+article h2{
+    font-family: njnaruto;
+}
+
+section,
+aside{
+    background-color: #FA9427;
+    border: solid;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+
+
+/* aside {
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-image: url("./img/bg_story_en.jpg");
+    background-size: 100%;
+} */
+
+
+

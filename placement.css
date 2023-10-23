@@ -1,14 +1,4 @@
-body{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    overflow-x: hidden;
-}
 
-header, footer{
-    flex-basis: 99%;
-    flex-grow: 1;   
-}
 
 main{
     flex-basis: 70%;
@@ -26,18 +16,4 @@ main>section{
 
 img {
     height: min-content;
-}
-
-nav {
-    position: relative;
-    z-index: 2;
-}
-
-h1 {
-    z-index: 3;
-    position: relative;
-}
-
-.cylon_eye {
-    z-index: 1;
 }
