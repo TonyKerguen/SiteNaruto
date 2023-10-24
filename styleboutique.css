@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FA9427;
+    border: solid;
+    margin: 1em;
+    padding: 1em;
+    justify-content: center;
+}
+
+section img, section h2, section p{
+    align-items: center;
+    flex-basis: 100%;
+}
