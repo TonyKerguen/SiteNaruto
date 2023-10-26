@@ -6,6 +6,8 @@ main>section{
     display: flex;
 }
 
+
+
 main{
     flex-basis: 70%;
     flex-grow: 1;
@@ -22,7 +24,7 @@ img {
 
 section,
 aside{
-    background-color: #FA9427;
+    background-color: #FA9427CC;
     border: solid;
     margin: 1em;
     padding: 1em;

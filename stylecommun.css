@@ -5,6 +5,8 @@
 
 body {
     background-color: orange;
+    background-image: url('./img/bg_story_en.jpg');
+    background-position: 15% 75%;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
@@ -13,21 +15,20 @@ body {
 
 header {
     background: #75c1cc url('./img/sky.webp') no-repeat center/cover;
+    font-family: njnaruto;
 }
 
 header h1 {
     text-align: center;
     font-size: 6em;
-    font-family: njnaruto;
     z-index: 3;
     position: relative;
 }
 
 nav {
     background-color: #273750;
-    list-style-type: none;
+    list-style: none;
     text-align: center;
-    font-family: njnaruto;
     position: relative;
     z-index: 2;
 }
@@ -48,9 +49,7 @@ nav li {
 }
 
 nav li:hover {
-    background-color: #273750;
     transform: scale(1.2);
-    border-radius: 10px;
 }
 
 .cylon_eye {
