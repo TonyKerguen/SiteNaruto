@@ -1,28 +1,9 @@
-article h2{
-    font-family: njnaruto;
-}
-
-main>section{
-    display: flex;
-}
-
-
-
 main{
     flex-basis: 70%;
     flex-grow: 1;
 }
 
-aside{
-    flex-basis: 20%;
-    flex-grow: 1;
-}
-
-img {
-    height: min-content;
-}
-
-section,
+.Personnage,
 aside{
     background-color: #FA9427CC;
     border: solid;
@@ -30,15 +11,57 @@ aside{
     padding: 1em;
 }
 
+.Personnage h2{
+    font-family: njnaruto;
+}
 
+.Personnage{
+    display: flex;
+}
 
+aside{
+    flex-basis: 20%;
+    flex-grow: 1;
+    height: 100%;
+    
+}
 
-/* aside {
-    background-position-y: center;
-    background-repeat: no-repeat;
-    background-image: url("./img/bg_story_en.jpg");
-    background-size: 100%;
-} */
+aside ul{
+    list-style: none;
+    margin: 0;
+    padding: 0.5em;
+}
 
+main img {
+    height: min-content;
+}
 
+aside img{
+    height: 1em;
+    width: auto;
+}
 
+table{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+tr a{
+    margin: 0.1em;
+    color: black;
+}
+
+aside h2:first-child{
+    margin-top: 0;
+}
+
+.choix_perso{
+    margin-bottom: 0.5em;
+}
+
+.button_envoi{
+    border-radius: 8px;
+    background-color: #FA9427;
+    border: 2px solid black;
+}

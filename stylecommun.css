@@ -37,6 +37,10 @@ nav a {
     color: #FA9427;
 }
 
+.page_actuel a{
+    color: #d87811;
+}
+
 nav ul {
     padding: 0;
     margin: 0;
@@ -50,10 +54,6 @@ nav li {
 
 nav li:hover {
     transform: scale(1.2);
-}
-
-.cylon_eye {
-    z-index: 1;
 }
 
 .nuage_en_mouvement {

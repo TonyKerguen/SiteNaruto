@@ -24,6 +24,10 @@ section h2, section p{
     flex-grow: 1;
 }
 
+section h2{
+    margin-top: 0;
+}
+
 section img{
     width: 70%;
 }
